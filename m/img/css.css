@@ -2,7 +2,7 @@ body{
     
     background-color: #000;
     color: #990000;
-	font-size: 25px;
+	font-size: 20px;
     
 }
 
@@ -30,4 +30,25 @@ a{
 	color: #E50000;
 	font-weight: bold;
 
+}
+
+.topbar{
+    background-image: url(bar_bg.jpg);
+    width:800px;
+    height:100px;
+}
+
+.topbar .user{
+    background-image:url(top_note.gif);
+    width:340px;
+    background-repeat:no-repeat;
+}
+
+.topbar .menu{
+    text-align: right;
+}
+
+img.avatar{
+    width: 90px;
+    height: 90px;
 }

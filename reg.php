@@ -9,5 +9,5 @@
         mysqli_query($link, "INSERT INTO `users` (`nick`,`pass`,`mail`) VALUES ('$username', '$pass', '$mail')");
         session_start();
         $_SESSION['nick'] = $username;
-        header("Location:/m/index.php");
+        header("Location: m/index.php");
     }

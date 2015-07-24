@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php 			session_start(); ?>
 <html lang="Sex,drugs and rock'n'roll">
 
 	<head>
@@ -18,6 +19,21 @@
 			    <br/>
 			    <input type="submit" value="Zaloguj"/>
 			</form>
+			<?php 
+			
+
+				if(isset($_SESSION['error'])){
+					
+					echo $_SESSION['error'];
+					
+				}
+				else{
+					
+					echo '';
+					
+				}
+
+			?>
 			<br/>
 			
 			Zarejestruj się:

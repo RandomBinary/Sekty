@@ -17,24 +17,22 @@
 		<title>Sekty - <?php echo $_SESSION['nick'] ?></title>
 	</head>
 	<body>
-		<table border="0" class="topbar">
-            <tbody><tr>
-                <Td class="user">
-                    <table>
-                        <td>
-                            <?php echo "<img src=\"" . $user['avatar'] . "\" alt=\"Twój avatar.\" class=\"avatar\">"; ?>
-                        </td>
-                        <Td>
-                            <?php echo "<strong>" . $user['nick'] . "</strong>"; ?><br>
-                            Cycki: 5
-                        </Td>
-                    </table>
-                </Td>
-                <Td class="menu">
-                    <a href="logout.php"><img src="img/logout.gif" alt="Wyloguj się"></a>
-                </Td>
-            </tr></tbody>
+		<table border="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="margin:0;">
+                        <?php include '../incl/topbar.php'; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="margin:0;">
+                        <iframe width="800px" height="500px" src="http://jurassicworld.com" style="border:0;" name="main">
+                        </iframe>
+                    </td>
+                </tr>
+            </tbody>
         </table>
+        <a href="http://bang.ru" target="main">klik</a>
 	</body>
 
 </html>

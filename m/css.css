@@ -1,0 +1,33 @@
+body{
+    
+    background-color: #000;
+    color: #990000;
+	font-size: 25px;
+    
+}
+
+input{
+
+	background-color: #333;
+	color: #fff;
+	border: 1.5px solid red;
+	font-size: 20px;
+
+}
+
+.error{
+
+	display: inline-block;
+	background-color: #FF5959;
+	border: 1px solid #F00;
+	color: black;
+	font-size: 20px;
+
+}
+
+a{
+
+	color: #E50000;
+	font-weight: bold;
+
+}

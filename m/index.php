@@ -17,7 +17,7 @@
 		<title>Sekty - <?php echo $_SESSION['nick'] ?></title>
 	</head>
 	<body>
-		<table border="0" cellspacing="0">
+		<table border="0" cellspacing="0" style="margin: 0 auto;">
             <tbody>
                 <tr>
                     <td style="margin:0;">
@@ -26,7 +26,7 @@
                 </tr>
                 <tr>
                     <td style="margin:0;">
-                        <iframe width="800px" height="500px" src="http://jurassicworld.com" style="border:0;" name="main">
+                        <iframe width="800px" height="450px" src="http://jurassicworld.com" style="border:0;" name="main">
                         </iframe>
                     </td>
                 </tr>

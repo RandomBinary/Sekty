@@ -4,3 +4,11 @@ body{
     color: #990000;
     
 }
+
+input{
+
+	background-color: #333;
+	color: #fff;
+	border: 1.5px solid red;
+
+}

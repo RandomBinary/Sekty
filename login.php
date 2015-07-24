@@ -13,7 +13,7 @@
 	}
 	else{
 		
-		$_SESSION['error'] = '<span class="error">Zły nick lub hasło</span>';
+		$_SESSION['error'] = '<span class="error">Zły nick lub hasło</span><br/>';
 		header('Location: index.php');
 		
 	}

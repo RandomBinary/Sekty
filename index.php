@@ -27,11 +27,6 @@
 					echo $_SESSION['error'];
 					
 				}
-				else{
-					
-					echo '';
-					
-				}
 
 			?>
 			<br/>
